@@ -1,0 +1,83 @@
+// Mono-space font required
+{
+// Factory selection parameters
+"select": {
+	"air_map": 80,
+	"offset": [-20, 20],
+	// Speed factor: 8x8 ~ 0%, 24x24 ~ 40%
+	"speed": [0, 40],
+	"map": [8, 24],
+	"no_air": 3
+},
+
+// Utility param: warning on unit's total probability not equal to 100%
+"warn_probability": true,
+
+// Define factories
+"factory": {
+	"factoryspider": {
+		"importance": [0.2, 0.25],
+		"require_energy": false,
+
+		"income_tier": [20, 50, 75, 100, 120, 150, 200],
+		//             weaver,      flea,          hermit,          venom,       redback,      recluse,       crabe,         infiltrator,       tarantula
+		"unit":      ["spidercon", "spiderscout", "spiderassault", "spideremp", "spiderriot", "spiderskirm", "spidercrabe", "spiderantiheavy", "spideraa"],
+		"land": {
+			// 0-12m Opening - Opening Riots
+			"tier0": [ 0.30,        0.0,          0.30,            0.20,        0.20,         0.00,          0.00,          0.00,              0.00],
+			// 13-18m Early Game - still mostly Riots
+			"tier1": [ 0.15,        0.0,          0.20,            0.19,        0.25,         0.21,          0.00,          0.00,              0.00],
+			// 17-24m Expanding - Slant production towards Hermit & Redback
+			"tier2": [ 0.06,        0.08,          0.24,            0.15,        0.10,         0.35,          0.02,          0.00,              0.00],
+			// 25-32m Expansions meet - Slant production towards Hermit & Recluse
+			"tier3": [ 0.08,        0.05,          0.16,            0.13,        0.10,         0.33,          0.15,          0.00,              0.00],
+			// 33m -40m Solid Fronts - 	Greater Emphasis on Hermit & Crabbe
+			"tier4": [ 0.08,        0.00,          0.19,            0.13,        0.10,         0.32,          0.18,          0.00,              0.00],
+			// 41m - 56m Mid Game - We need more Crabbes
+			"tier5": [ 0.08,        0.42,          0.07,            0.02,        0.00,         0.31,          0.10,          0.00,              0.00],
+			// 57m - 72m Late Game -  MORE CRABBES
+			"tier6": [ 0.09,        0.40,          0.11,            0.00,        0.00,         0.29,          0.11,          0.00,              0.00],
+			// 72m - inf+ Late late Game - TURBO CRABBES
+			"tier7": [ 0.10,        0.35,          0.20,            0.00,        0.00,         0.22,          0.13,          0.00,              0.00]
+		},
+
+		"caretaker": 6
+	},
+
+	"factoryship": {
+		"importance": [5.5, 5.5],
+		"require_energy": false,
+
+		"income_tier": [30],
+		//             mariner    cutter,      hunter,           seawolf,     corsair,    mistral,     siren,         ronin,      zephyr
+		"unit":      ["shipcon", "shipscout", "shiptorpraider", "subraider", "shipriot", "shipskirm", "shipassault", "shiparty", "shipaa"],
+		"water": {
+			"tier0": [ 0.05,      0.15,        0.35,             0.10,        0.10,       0.10,        0.15,          0.00,       0.00],
+			"tier1": [ 0.05,      0.10,        0.20,             0.10,        0.05,       0.10,        0.25,          0.15,       0.00]
+		},
+
+		"caretaker": 6
+	},
+
+	"striderhub": {
+		"importance": [2, 2],
+		"require_energy": true,
+
+		"income_tier": [10, 50, 100, 150],
+		//ultimatum,scorpion,dante,catapult,funnelweb,bantha,detriment,atlas,scylla,reef,battleship
+		"unit":      ["striderantiheavy", "striderscorpion", "striderdante", "striderarty", "striderfunnelweb", "striderbantha", "striderdetriment", "strideratlas", "subtacmissile", "shipcarrier", "shipheavyarty"],
+		"land": {
+			"tier0": [ 0.01,               0.46,              0.30,           0.05,          0.05,               0.03,            0.00,               0.10,               0.00,            0.00,          0.00],
+			"tier1": [ 0.02,               0.20,              0.05,           0.21,          0.05,               0.25,            0.00,               0.22,               0.00,            0.00,          0.00],
+			"tier2": [ 0.05,               0.20,              0.00,           0.21,          0.10,               0.26,            0.04,               0.14,               0.00,            0.00,          0.00],
+			"tier3": [ 0.02,               0.06,              0.00,           0.21,          0.05,               0.22,            0.22,               0.22,               0.00,            0.00,          0.00]
+		},
+		"water": {
+			"tier1": [ 0.50,               0.00,              0.00,           0.00,          0.00,               0.00,            0.00,               0.00,               0.00,            0.25,          0.25],
+			"tier2": [ 0.10,               0.00,              0.00,           0.00,          0.00,               0.00,            0.10,               0.00,               0.00,            0.40,          0.40]
+		},
+
+		"caretaker": 10
+	}
+}
+}
