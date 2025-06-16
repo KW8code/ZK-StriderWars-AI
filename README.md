@@ -13,7 +13,7 @@ To use these AIs:
 
 1.) Open steam, right click zero-k in your library and press properties. Click on Installed Files. Click "Browse". Go to AI then Skirmish. If you're not on steam, go to your Zero-K install's location then go to AI then Skirmish. (EG: Zero-K/AI/Skirmish)
 
-2.) Download AI and drop the folder into your zero-K AI/Skirmish folder. like (Zero-K/AI/Skirmish/SW-Striders-V1) which would then be like (Zero-K/AI/Skirmish/SW-Striders-V1/stable/...)
+2.) Download AI and drop the folder (SW-Striders-V1) into your zero-K AI/Skirmish folder. like (Zero-K/AI/Skirmish/SW-Striders-V1) which would then be like (Zero-K/AI/Skirmish/SW-Striders-V1/stable/...)
 
 3.) In your Zero-K install directory, create a new file named "devmode" as a text file (either by creating a file called "devmode.txt" or creating a new text file and naming it "devmode")
 
