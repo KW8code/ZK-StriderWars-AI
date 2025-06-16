@@ -4,7 +4,8 @@ Currently just one AI developed.
 
 Adding these AIs is the same as adding any AI into Zero-K. The instuctions below are from Shaman's (awesome) Zero-K Future Wars MOD. These Instuctions work for any AI install.
 
-Usage
+Usage:
+
 To use these AIs:
 
 1.) Open steam, right click zero-k in your library and press properties. Click on Installed Files. Click "Browse". Go to AI then Skirmish. If you're not on steam, go to your Zero-K install's location then go to AI then Skirmish. (EG: Zero-K/AI/Skirmish)
