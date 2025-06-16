@@ -1,8 +1,11 @@
 # ZK-StriderWars-AI
-A repository of circuitAI configs for use with ZK-StriderWars-V1 MOD. These AIs will mass produce Striders!
-Currently just one AI developed.
+A repository of circuitAI configs for use with ZK-StriderWars-V1 MOD within Zero-K (FREE Real Time Strategy Game).
 
-Adding these AIs is the same as adding any AI into Zero-K. The instuctions below are from Shaman's (awesome) Zero-K Future Wars MOD. These Instuctions work for any AI install.
+These AIs will mass produce Striders! Currently just one AI developed.
+
+It's easy to add any AI to Zero-K.
+
+The instuctions below are from Shaman's (awesome) Zero-K Future Wars MOD. These Instuctions work for any AI install.
 
 Usage:
 
