@@ -18,9 +18,9 @@
 			// limit = random(<lower limit>..<upper limit>)
 			"energysingu": [1],
 			"energygeo": [0, 2],
-			"energyfusion": [4, 8],
+			"energyfusion": [2, 8],
 			"energywind": [1],
-			"energysolar": [30]
+			"energysolar": [5, 30]
 		},
 		"water": {
 			"energysingu": [1],
