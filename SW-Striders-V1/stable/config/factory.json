@@ -16,10 +16,10 @@
 // Define factories
 "factory": {
 	"factoryspider": {
-		"importance": [0.2, 0.25],
+		"importance": [5.75, 5.75],
 		"require_energy": false,
 
-		"income_tier": [20, 50, 75, 100, 120, 150, 200],
+		"income_tier": [5, 60, 90, 120, 150, 200, 250],
 		//             weaver,      flea,          hermit,          venom,       redback,      recluse,       crabe,         infiltrator,       tarantula
 		"unit":      ["spidercon", "spiderscout", "spiderassault", "spideremp", "spiderriot", "spiderskirm", "spidercrabe", "spiderantiheavy", "spideraa"],
 		"land": {
@@ -60,17 +60,17 @@
 	},
 
 	"striderhub": {
-		"importance": [2, 2],
+		"importance": [1.0, 1.0],
 		"require_energy": true,
 
-		"income_tier": [10, 50, 100, 150],
+		"income_tier": [50, 75, 150, 250],
 		//ultimatum,scorpion,dante,catapult,funnelweb,bantha,detriment,atlas,scylla,reef,battleship
 		"unit":      ["striderantiheavy", "striderscorpion", "striderdante", "striderarty", "striderfunnelweb", "striderbantha", "striderdetriment", "strideratlas", "subtacmissile", "shipcarrier", "shipheavyarty"],
 		"land": {
 			"tier0": [ 0.01,               0.46,              0.30,           0.05,          0.05,               0.03,            0.00,               0.10,               0.00,            0.00,          0.00],
 			"tier1": [ 0.02,               0.20,              0.05,           0.21,          0.05,               0.25,            0.00,               0.22,               0.00,            0.00,          0.00],
 			"tier2": [ 0.05,               0.20,              0.00,           0.21,          0.10,               0.26,            0.04,               0.14,               0.00,            0.00,          0.00],
-			"tier3": [ 0.02,               0.06,              0.00,           0.21,          0.05,               0.22,            0.22,               0.22,               0.00,            0.00,          0.00]
+			"tier3": [ 0.02,               0.06,              0.00,           0.20,          0.12,               0.20,            0.20,               0.20,               0.00,            0.00,          0.00]
 		},
 		"water": {
 			"tier1": [ 0.50,               0.00,              0.00,           0.00,          0.00,               0.00,            0.00,               0.00,               0.00,            0.25,          0.25],
